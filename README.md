@@ -1,5 +1,5 @@
 # angular-js-tab-control
-create a data driven tab control component with angular js 
+a data driven tab control component with angular js, dot net core and type script
 
 # youtube video
 coming soon...
