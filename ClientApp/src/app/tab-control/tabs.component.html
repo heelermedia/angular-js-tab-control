@@ -1,0 +1,11 @@
+<nav>
+  <div class="nav nav-tabs" id="nav-tab" role="tablist">
+    <a *ngFor="let tabItem of tabItems" [class.active]="tabItem.isSelected" (click)="onTabClicked(tabItem)" class="nav-item nav-link" id="nav-home-tab" href="javascript:void(0)" role="tab" aria-controls="nav-home" aria-selected="true">{{tabItem.text}}</a>
+  </div>
+</nav>
+<div class="tab-content">
+  <div role="tabpanel" aria-labelledby="nav-home-tab">
+    <!-- The <ng-template> element is a good choice for dynamic components because it doesn't render any additional output. -->
+    <ng-template appTabs></ng-template>
+  </div>
+</div>
