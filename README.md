@@ -2,4 +2,4 @@
 a data driven tab control component with angular js, dot net core and type script
 
 # youtube video
-coming soon...
+https://www.youtube.com/watch?v=GN7xz9fr4iA
